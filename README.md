@@ -1,6 +1,6 @@
-#Sistema de inventarios 
+# Sistema de inventarios 
 
 Técnologias usadas
 
-°Laravel en su version 11
-°MySQL utilizando wampserver
+- Laravel en su version 11
+- MySQL utilizando wampserver
