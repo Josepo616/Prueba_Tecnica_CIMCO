@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crear Producto</title>
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/productos/create.css') }}">
 </head>
 <body>
     <div class="container">
@@ -42,6 +42,7 @@
                 <a href="{{ route('proveedores.create') }}">Crear nuevo proveedor</a>
             </div>
             <button type="submit" class="btn btn-primary">Guardar Producto</button>
+            <a href="javascript:history.back()" class="btn btn-cancel">Cancelar</a>
         </form>
     </div>
 </body>

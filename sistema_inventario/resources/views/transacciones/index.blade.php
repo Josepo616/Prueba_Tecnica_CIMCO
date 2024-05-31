@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Transacciones</title>
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/transacciones/index.css') }}">
 </head>
 <body>
     <div class="container">
@@ -35,6 +35,8 @@
                 @endforeach
             </tbody>
         </table>
+        
+        <a href="javascript:history.back()" class="btn btn-cancel">Regresar</a>
     </div>
 </body>
 </html>

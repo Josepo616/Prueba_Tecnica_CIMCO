@@ -22,6 +22,7 @@
             <input type="password" class="form-control" id="password" name="password" required>
         </div>
         <button type="submit" class="btn btn-primary">Crear</button>
+        <a href="javascript:history.back()" class="btn btn-success">Cancelar</a>
     </form>
 </div>
 </body>

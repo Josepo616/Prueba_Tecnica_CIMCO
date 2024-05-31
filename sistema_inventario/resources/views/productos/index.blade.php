@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Productos</title>
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/productos/index.css') }}">
 </head>
 <body>
     <div class="container">
         <h1>Lista de Productos</h1>
-        <a href="{{ route('productos.create') }}">Registrar una entrada de un nuevo producto</a>
+        <a href="{{ route('productos.create') }}" class="btn btn-primary">Registrar una entrada de un nuevo producto</a>
 
         <table>
             <thead>
@@ -31,15 +31,16 @@
                 <td>{{ $producto->proveedor->nombre }}</td>
                 <td>{{ $producto->cantidad_disponible }}</td>
                 <td>
-                    <a href="{{ route('productos.salida', $producto->ucc) }}">Registrar salida</a>
-                    <a href="{{ route('productos.entrada', $producto->ucc) }}">Registrar entrada</a>
-                    <a href="{{ route('productos.ajustes', $producto->ucc) }}">Registrar ajuste</a>
-
+                    <a href="{{ route('productos.salida', $producto->ucc) }}" class="btn btn-secondary">Registrar salida</a>
+                    <a href="{{ route('productos.entrada', $producto->ucc) }}" class="btn btn-secondary">Registrar entrada</a>
+                    <a href="{{ route('productos.ajustes', $producto->ucc) }}" class="btn btn-secondary">Registrar ajuste</a>
                 </td>
             </tr>
             @endforeach
             </tbody>
         </table>
+        
+        <a href="javascript:history.back()" class="btn btn-cancel">Regresar</a>
     </div>
 </body>
 </html>

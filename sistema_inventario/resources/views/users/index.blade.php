@@ -4,6 +4,7 @@
     <title>Lista de Usuarios</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 </head>
+<
 <body>
 <div class="container">
     <h1 class="mt-4">Lista de Usuarios</h1>
@@ -31,6 +32,10 @@
             @endforeach
         </tbody>
     </table>
+
+    <a href="javascript:history.back()" class="btn btn-success">Regresar</a>
+
 </div>
 </body>
+
 </html>

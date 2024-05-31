@@ -35,8 +35,12 @@ class UserController extends Controller
 
     $user->save();
 
+
     return redirect()->route('users.index')
         ->with('success', 'Usuario creado correctamente.');
+        
+
+    
 }
 
 

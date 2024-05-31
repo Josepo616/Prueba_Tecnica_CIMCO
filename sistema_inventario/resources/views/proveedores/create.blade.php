@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crear Proveedor</title>
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/proveedores/create.css') }}">
 </head>
 <body>
     <div class="container">
@@ -23,7 +23,10 @@
                 <label for="telefono">Teléfono del Proveedor:</label>
                 <input type="text" id="telefono" name="telefono" class="form-control" required>
             </div>
-            <button type="submit" class="btn btn-primary">Guardar Proveedor</button>
+            <div class="button-group">
+                <button type="submit" class="btn btn-primary">Guardar Proveedor</button>
+                <a href="javascript:history.back()" class="btn btn-cancel">Cancelar</a>
+            </div>
         </form>
     </div>
 </body>

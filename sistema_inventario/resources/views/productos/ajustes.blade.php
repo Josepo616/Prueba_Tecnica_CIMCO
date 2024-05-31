@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ajustes del Producto</title>
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/productos/ajuste.css') }}">
 </head>
 <body>
     <div class="container">
@@ -43,6 +43,7 @@
                 </select>
             </div>
             <button type="submit" class="btn btn-primary">Guardar cambios</button>
+            <a href="javascript:history.back()" class="btn btn-cancel">Cancelar</a>
         </form>
     </div>
 </body>

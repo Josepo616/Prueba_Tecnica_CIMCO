@@ -1,0 +1,57 @@
+/* Estilo para el contenedor principal */
+.container {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Estilo para el título */
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo para los campos del formulario */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo para los botones */
+  .button-group {
+    text-align: center;
+  }
+  
+  /* Estilo para el botón de guardar */
+  .btn-primary {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Estilo para el botón de cancelar */
+  .btn-cancel {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #dc3545;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Estilo para el botón al pasar el ratón sobre él */
+  .btn-primary:hover,
+  .btn-cancel:hover {
+    filter: brightness(90%);
+  }
+  

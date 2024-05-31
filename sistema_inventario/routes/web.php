@@ -18,6 +18,10 @@ Route::get('/login', [AuthController::class, 'showLoginForm'])->name('login');
 Route::post('/login', [AuthController::class, 'login']);
 Route::get('/users/create', [UserController::class, 'create'])->name('users.create');
 Route::post('/users', [UserController::class, 'store'])->name('users.store');
+Route::get('/register', [UserController::class, 'create'])->name('register');
+Route::post('/register', [UserController::class, 'store'])->name('register.submit');
+
+
 
 // Rutas protegidas
 Route::middleware('auth')->group(function () {

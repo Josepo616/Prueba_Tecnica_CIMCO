@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registrar Entrada de Producto</title>
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/productos/entrada.css') }}">
 </head>
 <body>
     <div class="container">
@@ -16,6 +16,7 @@
                 <input type="number" id="cantidad_entrada" name="cantidad_entrada" class="form-control" required>
             </div>
             <button type="submit" class="btn btn-primary">Registrar Entrada</button>
+            <a href="javascript:history.back()" class="btn btn-cancel">Cancelar</a>
         </form>
     </div>
 </body>

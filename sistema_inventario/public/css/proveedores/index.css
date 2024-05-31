@@ -1,0 +1,60 @@
+/* Estilo para el contenedor principal */
+.container {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Estilo para el título */
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo para el botón de acción principal */
+  .btn-primary {
+    display: block;
+    width: 200px;
+    margin: 0 auto 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Estilo para el botón de regresar */
+  .btn-cancel {
+    display: block;
+    width: 200px;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    background-color: #dc3545;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Estilo para el botón al pasar el ratón sobre él */
+  .btn-primary:hover,
+  .btn-cancel:hover {
+    filter: brightness(90%);
+  }
+  
+  /* Estilo para los nombres de los proveedores */
+  ul li {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  

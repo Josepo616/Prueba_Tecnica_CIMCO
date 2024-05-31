@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registrar Salida</title>
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/productos/salida.css') }}">
 </head>
 <body>
     <div class="container">
@@ -16,6 +16,7 @@
                 <input type="number" id="cantidad_salida" name="cantidad_salida" class="form-control" min="1" max="{{ $producto->cantidad_disponible }}" required>
             </div>
             <button type="submit" class="btn btn-primary">Registrar Salida</button>
+            <a href="javascript:history.back()" class="btn btn-cancel">Cancelar</a>
         </form>
     </div>
 </body>
