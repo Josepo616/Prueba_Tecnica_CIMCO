@@ -5,7 +5,7 @@ Técnologias usadas:
 - Laravel en su version 11
 - MySQL utilizando wampserver
 - Javascript
-- blade
+- Blade
 
 
 Logica de negocio:
