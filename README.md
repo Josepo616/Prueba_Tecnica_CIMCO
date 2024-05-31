@@ -32,3 +32,7 @@ En el apartado del front tambien quedé un poco corto, estuve intentando varias 
 - Angular
 
 Pero no logré integrar correctamente mi backend y por cuestiones de tiempo prefería utiliar las vistast blade que basicamente son anotaciones php conjugadas con html, y javascript en unos casos y así mismo estilizarlas con marcados css y bootstrap.
+
+
+
+# Creado por José Álvarez @Todos los derechos reservados
